@@ -25,7 +25,7 @@ jobs:
           python-version: '3.13'
           
       - name: Run script
-        run: python .github/workflows/stats.yml # .Ruta
+        run: python .hello-git-curso/stats.py # .Ruta del archivo desde la raíz.
         
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
