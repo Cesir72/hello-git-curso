@@ -23,9 +23,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-          
+
+    
       - name: Run script
-        run: python .hello-git-curso/stats.py # .Ruta del archivo desde la raíz.
+        run: python C:\Users\cesar\Desktop\Hello Git # .Ruta del archivo desde la raíz.
         
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
